@@ -1,0 +1,150 @@
+body {
+    
+font-family: Arial, sans-serif;
+    
+  
+background-color: #e6f7ff;
+    color: #333;
+    display: flex;
+    
+flex-direction: column;
+
+align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+background-color: #00b3b3;
+    
+color: white;
+    padding: 3px;
+    width: 100%;
+    
+text-align: center;
+}
+
+.carousel {
+    
+width: 80%;
+    max-width: 700px;
+    
+position: relative;
+    
+   
+overflow: hidden;
+}
+
+.carousel-slide {
+    display: none;
+
+background-color: #009999;
+    
+color: white;
+    padding: 20px;
+
+text-align: center;
+    font-size: 1.2em;
+}
+
+.carousel-slide.active {
+    
+   
+display: block;
+}
+
+.carousel-controls button {
+
+position: absolute;
+    top: 50%;
+    
+   
+transform: translateY(-50%);
+    
+   
+
+ 
+background-color: #00b3b3;
+    color: white;
+    border: none;
+    
+   
+padding: 10px;
+    
+cursor: pointer;
+}
+
+.carousel-controls button:hover {
+    
+background-color: #007777;
+}
+
+.carousel-controls button:first-child {
+     
+left: 10px;
+}
+
+.carousel-controls button:last-child {
+    
+right: 10px;
+}
+
+.mental-health h2 {
+    color: #009999;
+}
+
+.container {
+    margin: 10px 0;
+    padding: 10px;
+    
+background-color: #b3e0ff;
+    
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.container:hover {
+   
+background-color: #009999;
+    color: white;
+
+transform: scale(1.05);
+}
+
+.consultation-form form {
+    
+display: flex;
+    flex-direction: column;
+
+align-items: start;
+
+background-color: #e6f7ff;
+    padding: 20px;
+
+border: 1px solid #009999;
+}
+
+.consultation-form input,
+.consultation-form select,
+.consultation-form button {
+    
+margin: 10px 0;
+padding: 8px;
+    width: 100%;
+    font-size: 1em;
+}
+
+.consultation-form button {
+ 
+background-color: #00b3b3;
+    color: white;
+    border: none;
+    
+ 
+cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.consultation-form button:hover {
+background-color: #007777;
+}
